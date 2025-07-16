@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f7f7f7;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .header {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .header img {
+      width: 120px;
+      height: auto;
+    }
+
+    .header h1 {
+      color: #004080;
+      margin-top: 10px;
+    }
+
+    .section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .section h2 {
+      color: #004080;
+      margin-bottom: 10px;
+      font-size: 28px;
+    }
+
+    .section p {
+      font-size: 16px;
+    }
+
+    .core-values {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .core-values h2 {
+      color: #004080;
+      font-size: 26px;
+      margin-bottom: 30px;
+    }
+
+    .box-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .box3 {
+      background-color: #004080;
+      color: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      width: 250px;
+      transition: transform 0.3s, background-color 0.3s;
+    }
+
+    .box3:hover {
+      transform: translateY(-5px);
+      background-color: #003060;
+    }
+
+    .box3 h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .box3 p {
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      .box3 {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <img src="images/logo.png" alt="Ghana Shippers Council Logo">
+    <h1>About Ghana Shippers Council</h1>
+  </div>
+
+  <div class="section">
+    <h2>Our History</h2>
+    <p>
+      Established in 1974 under the Ghana Shippers Council Decree (NRCD 254), the Ghana Shippers Council has played a pivotal role in representing and safeguarding the interests of Ghanaian shippers. Over the years, we've adapted to meet the dynamic needs of the maritime industry and our stakeholders.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Our Mission</h2>
+    <p>
+      To promote and protect the interests of shippers in Ghana by delivering quality services, advocating fair trade practices, and fostering an efficient shipping environment through collaborative stakeholder engagement.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>Our Vision</h2>
+    <p>
+      To be the leading enabler of a sustainable and competitive shipping industry that supports Ghana's economic growth and integration into the global trade ecosystem.
+    </p>
+  </div>
+
+  <div class="core-values">
+    <h2>Our Core Values</h2>
+    <div class="box-container">
+      <div class="box3">
+        <h3>Integrity</h3>
+        <p>We uphold the highest ethical standards in all our engagements and decisions.</p>
+      </div>
+      <div class="box3">
+        <h3>Professionalism</h3>
+        <p>Our services reflect competence, dedication, and a commitment to excellence.</p>
+      </div>
+      <div class="box3">
+        <h3>Innovation</h3>
+        <p>We continuously seek creative and practical solutions to meet evolving challenges.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ghana Shippers Council</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    header img {
+      width: 150px;
+      height: auto;
+    }
+
+    header h1 {
+      color: #004aad;
+      margin-top: 1rem;
+      font-size: 2rem;
+    }
+
+    .contact-bar {
+      background-color: #004aad;
+      color: white;
+      padding: 0.75rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    .layout {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .sidebar {
+      width: 250px;
+      background-color: #004aad;
+      color: white;
+      min-height: 100vh;
+      padding: 2rem 1rem;
+    }
+
+    .sidebar h3 {
+      margin-bottom: 1rem;
+    }
+
+    .sidebar ul {
+      list-style: none;
+    }
+
+    .sidebar li {
+      margin-bottom: 1rem;
+    }
+
+    .sidebar a {
+      color: white;
+      text-decoration: none;
+    }
+
+    nav {
+      background-color: #eaeaea;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #004aad;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #002f73;
+    }
+
+    .main-content {
+      flex: 1;
+      padding: 2rem;
+    }
+
+    .main-content h2 {
+      background-color: #004aad;
+      color: white;
+      display: inline-block;
+      padding: 0.5rem 1.5rem;
+      border-radius: 8px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .service-box {
+      background-color: white;
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .service-box img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .service-box h3 {
+      color: #004aad;
+      margin-top: 1rem;
+    }
+
+    footer {
+      background-color: #004aad;
+      color: white;
+      border-top-left-radius: 100px;
+      margin-top: 3rem;
+      padding: 2rem 1rem;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .footer-grid h4 {
+      background-color: white;
+      color: #004aad;
+      padding: 0.5rem;
+      border-radius: 6px;
+    }
+
+    .footer-grid ul {
+      list-style: none;
+      padding-top: 0.5rem;
+    }
+
+    .footer-grid li {
+      padding: 5px 0;
+    }
+
+    .social {
+      text-align: center;
+      margin: 1rem 0;
+    }
+
+    .social img {
+      margin: 0 0.5rem;
+      width: 30px;
+    }
+
+    .passport {
+      text-align: center;
+    }
+
+    .passport img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+    }
+
+    .passport p {
+      margin: 0.5rem 0;
+    }
+
+    @media (max-width: 768px) {
+      .layout {
+        flex-direction: column;
+      }
+
+      .sidebar {
+        width: 100%;
+        min-height: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="images/logo.png" alt="Logo">
+    <h1>Ghana Shippers Council</h1>
+  </header>
+
+  <div class="contact-bar">
+    Phone: +233(0)302 666 915-7 | 0800 300055 - Toll Free
+  </div>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="about.html">About Us</a>
+    <a href="services.html">Services</a>
+    <a href="news.html">News </a>
+  </nav>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="about.html">About Us </a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="news.html">News</a></li>
+        
+      </ul>
+    </aside>
+
+    <main class="main-content">
+      <h2>Our Services</h2>
+      <div class="services">
+        <div class="service-box">
+          <img src="images/information.jpg" alt="Information Service">
+          <h3>Information Dissemination Services</h3>
+        </div>
+        <div class="service-box">
+          <img src="images/research.jpg" alt="Research Service">
+          <h3>Research Services</h3>
+        </div>
+        <div class="service-box">
+          <img src="images/programes.jpg" alt="Education Programs">
+          <h3>Education & Sensitization Programs</h3>
+        </div>
+        <div class="service-box">
+          <img src="images/facilitation.jpg" alt="Transit Trade">
+          <h3>Facilitation of Transit Trade</h3>
+        </div>
+        <div class="service-box">
+          <img src="images/legal.jpg" alt="Legal Services">
+          <h3>Legal Advice and Arbitration Services</h3>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    <center>
+      <h1><i>Contact Us</i></h1>
+    </center>
+    <div class="footer-grid">
+      <div>
+        <h4>Our Services</h4>
+        <ul>
+          <li>Shipper Advocacy</li>
+          <li>Complaint Handling</li>
+          <li>Freight Negotiation</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Our Location</h4>
+        <ul>
+          <li>7th Floor, Ghana Shippers House</li>
+          <li>No.12 Cruickshank Street</li>
+          <li>West Ridge, Accra</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Working Period</h4>
+        <ul>
+          <li>Mon – Fri</li>
+          <li>8:00am – 6:00pm</li>
+        </ul>
+      </div>
+    </div>
+    <div class="social">
+      <a href="https://web.facebook.com/ShippersGhana/"><img src="images/facebook.png" alt="Facebook"></a>
+      <a href="https://www.google.com/search?q=ghana+shippers+youtube"><img src="images/youtube.jpeg" alt="YouTube"></a>
+      <a href="https://www.google.com/search?q=ghana+shippers+instagram"><img src="images/instagram.png" alt="Instagram"></a>
+    </div>
+    <hr>
+    <div class="passport">
+      <img src="images/pass.jpg" alt="Passport">
+      <p>Name: <strong>Foster Owusu Amoakwa</strong></p>
+      <p>Index Number: <strong>BC/ITD/24/123</strong></p>
+    </div>
+  </footer>
+</body>
+
+</html>

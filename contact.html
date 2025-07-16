@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to right, #004080, #0074D9);
+      color: white;
+    }
+
+    header, section {
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    .offices {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .office {
+      background-color: #ffffff;
+      color: #000000;
+      border-radius: 10px;
+      max-width: 300px;
+      padding: 1.5rem;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .office:hover {
+      transform: translateY(-5px);
+    }
+
+    .office img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-bottom: 1rem;
+    }
+
+    .office h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .office p {
+      font-size: 0.9rem;
+      margin: 0.3rem 0;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      .offices {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Contact Us</h1>
+    <p>For inquiries or complaints, please reach out to us via the contact information below. We look forward to serving you.</p>
+    <hr style="width: 60%; margin: 2rem auto; border-color: white;">
+  </header>
+
+  <section class="offices">
+    <article class="office">
+      <h2>Head Office</h2>
+      <img src="images/head.jpg" alt="Head Office">
+      <p><strong>7th Floor Ghana Shippers House</strong></p>
+      <p>No. 12. Cruickshank St, West Ridge</p>
+      <p>Tel: +233 302-666915-7 / 0302-668769</p>
+      <p>GPS: GA-078-5940</p>
+      <p>Email: info@shippers.org.gh</p>
+    </article>
+
+    <article class="office">
+      <h2>Kumasi Office</h2>
+      <img src="images/kumasi.png" alt="Kumasi Office">
+      <p><strong>1st Floor NCA Building, Danyami</strong></p>
+      <p>Plot No. 2, Library Close, Kumasi</p>
+      <p>Tel: +233 3220-22533 / 29751</p>
+      <p>GPS: AK 063 1451</p>
+      <p>Email: gsaksi@shippers.org.gh</p>
+    </article>
+
+    <article class="office">
+      <h2>Takoradi Office</h2>
+      <img src="images/takoradi.png" alt="Takoradi Office">
+      <p><strong>2nd Floor, Takoradi Shippers’ Centre</strong></p>
+      <p>No. 9 Shippers Council Rd, Takoradi</p>
+      <p>Tel: +233 3120-21739</p>
+      <p>GPS: WS-349-3552</p>
+      <p>Email: gsatdi@shippers.org.gh</p>
+    </article>
+
+    <article class="office">
+      <h2>Tema Office</h2>
+      <img src="images/tema.png" alt="Tema Office">
+      <p><strong>5th Floor, GPHA Towers PMB, Tema</strong></p>
+      <p>GPHA Towers, Tema Main Harbour</p>
+      <p>Tel: +233 303-953374-6</p>
+      <p>GPS: GT-058-9927</p>
+      <p>Email: gsatema@shippers.org.gh</p>
+    </article>
+
+    <article class="office">
+      <h2>Tamale Office</h2>
+      <img src="images/tamale.png" alt="Tamale Office">
+      <p><strong>2nd Floor, Unity Plaza</strong></p>
+      <p>Kalpohen Junction, Tamale</p>
+      <p>Tel: +233 302-906571</p>
+      <p>GPS: NT-0026-3478</p>
+      <p>Email: gsatml@shippers.org.gh</p>
+    </article>
+  </section>
+</body>
+
+</html>
